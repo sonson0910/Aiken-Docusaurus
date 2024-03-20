@@ -1,4 +1,4 @@
-# Các khái niệm cơ bản trong Cardano cần biết trước khi viết hợp đồng thông minh (Tiếp theo)
+# Bài 6: Các khái niệm cơ bản trong Cardano cần biết trước khi viết hợp đồng thông minh (Tiếp theo)
 
 ## 1. Địa chỉ
 

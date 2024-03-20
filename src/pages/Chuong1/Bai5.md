@@ -1,4 +1,4 @@
-# Các khái niệm cơ bản trong Cardano cần biết trước khi viết hợp đồng thông minh
+# Bài 5: Các khái niệm cơ bản trong Cardano cần biết trước khi viết hợp đồng thông minh
 
 ## 1. Khối & giao dịch
 

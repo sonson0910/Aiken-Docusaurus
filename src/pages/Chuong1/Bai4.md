@@ -1,8 +1,4 @@
----
-title: Chạy thử nghiệm & giới thiệu cây thư mục
----
-
-# Chạy thử nghiệm & giới thiệu cây thư mục
+# Bài 4: Chạy thử nghiệm & giới thiệu cây thư mục
 
 ## 1. Tạo mới dự án
 

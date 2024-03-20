@@ -1,4 +1,4 @@
-# Một số khái niệm nâng cao trong hệ sinh thái Cardano
+# Bài 7: Một số khái niệm nâng cao trong hệ sinh thái Cardano
 
 ## 1. CBOR và CDDL
 
