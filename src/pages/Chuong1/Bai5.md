@@ -83,12 +83,12 @@ ra.
 Trong Cardano, một đầu ra là một đối tượng mô tả ít nhất hai thành phần trong
 đó:
 
-- Một lượng tài sản nhất định, cũng được gọi là một giá trị. 
-- Một điều kiện chi tiêu, cũng có thể gọi là một địa chỉ 
+- Một lượng tài sản nhất định, cũng được gọi là một giá trị.
+- Một điều kiện chi tiêu, cũng có thể gọi là một địa chỉ
 
-Và có thể còn một lượng dữ liệu cũng có thể
-được đưa vào đầu ra nhưng chưa cần quan tâm đến nó ngay bây giờ. Vai trò của giá
-trị ở đây rất rõ ràng, nó chỉ ra số lượng tài sản mà đầu ra nắm giữ.
+Và có thể còn một lượng dữ liệu cũng có thể được đưa vào đầu ra nhưng chưa cần
+quan tâm đến nó ngay bây giờ. Vai trò của giá trị ở đây rất rõ ràng, nó chỉ ra
+số lượng tài sản mà đầu ra nắm giữ.
 
 Trong hệ sinh thái Cardano có hỗ trợ 2 loại tài sản: Tiền tệ chính của giao thức
 (ADA) và các loại tài sản do người dùng tự định nghĩa. Cả hai đều tồn tại song
