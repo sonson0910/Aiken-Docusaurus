@@ -21,7 +21,7 @@ Credentials và Stake credentials (Có thể tùy chọn chỉ có một trong h
   chứa khóa Verification Key ở dạng hash hoặc hash của một script kiểm soát
   logic ủy quyền.
 
-![Ví trong Cardano](../../../static/img/Chuong1/Bai6/img1.jpg)
+![Ví trong Cardano](./img/Bai6/img1.jpg)
 
 ### Có hai hình thức ở phần chi tiêu như sau
 
@@ -39,7 +39,7 @@ là stake pool. Script cũng có thể được sử dụng cho các mục đíc
 tiêu, như phát hành tài sản do người dùng định nghĩa (NFT, token) hoặc rút phần
 thưởng stake.
 
-![Phần ủy quyền](../../../static/img/Chuong1/Bai6/img2.jpg)
+![Phần ủy quyền](./img/Bai6/img2.jpg)
 
 ## 2. Script
 
@@ -70,14 +70,14 @@ Giống như các biến đầu vào trong hàm. Redeemer là dữ liệu do ng�
 khi chi tiêu UTxO, giống như tham số đầu vào của hàm. Script sử dụng cả datum và
 redeemer để đưa ra quyết định có chấp nhận giao dịch hay không.
 
-![Minh họa về ứng dụng của datum và redeemer](../../../static/img/Chuong1/Bai6/img4.jpg)
+![Minh họa về ứng dụng của datum và redeemer](./img/Bai6/img4.jpg)
 
 #### Ví dụ
 
 Hãy tưởng tượng bạn bán một chiếc xe và nhận UTxO chứa tiền thanh toán. UTxO có
 script yêu cầu chữ ký của bạn và người mua đồng ý chuyển nhượng quyền sở hữu xe.
 
-![Ví dụ](../../../static/img/Chuong1/Bai6/img3.jpg)
+![Ví dụ](./img/Bai6/img3.jpg)
 
 Khi hoàn tất thủ tục pháp lý, người mua cung cấp chữ ký (redeemer) cho script.
 Script kiểm tra chữ ký và datum (thông tin nhà), nếu hợp lệ thì UTxO được chi

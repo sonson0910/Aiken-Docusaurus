@@ -15,7 +15,7 @@ nhiệm của Plutus, không phải ai cũng có thể tiếp cận được nó
 bạn mới muốn tiếp cận smart contract. Ngôn ngữ này được khởi xướng bởi nhóm
 TxPipe và nhận được sự hỗ trợ từ _**Cardano Foundation**_.
 
-![Aiken tutorial](../../../static/img/Chuong1/Bai1/img1.png)
+![Aiken tutorial](./img/Bai1/img1.png)
 
 ## 2. Ưu điểm
 
@@ -28,7 +28,7 @@ toàn so với những ngôn ngữ tiền nhiệm đi trước, ngôn ngữ này
 hóa số lượng byte có trên tập lệnh, khiến mọi thứ sẽ trở nên nhẹ nhàng hơn rất
 nhiều.
 
-![Untyped Plutus Core](../../../static/img/Chuong1/Bai1/img2.png)
+![Untyped Plutus Core](./img/Bai1/img2.png)
 
 ## 3. Điều kiện tham gia khóa học
 
@@ -49,7 +49,7 @@ trình smartcontract nên mình sẽ nói không kỹ phần này. Nếu muốn 
 thức liên quan đến Cardano, các bạn có thể vào trang web Cardano2vn để có thể
 học hỏi và trao dồi kiến thức về hệ sinh thái Cardano.
 
-![Rust Programing](../../../static/img/Chuong1/Bai1/img3.png)
+![Rust Programing](./img/Bai1/img3.png)
 
 ## 5. Nội dung khóa học
 

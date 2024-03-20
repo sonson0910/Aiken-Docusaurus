@@ -8,7 +8,7 @@ vẻ nó như nó rất lớn và khá phức tạp, nhưng qua quyển sách n�
 cấp cho các bạn một cái nhìn toàn cảnh về cách mà các đồng tiền di chuyển trên
 thế giới này.
 
-![Sổ kế toán](../../../static/img/Chuong1/Bai5/img1.jpg)
+![Sổ kế toán](./img/Bai5/img1.jpg)
 
 Tương tự như vậy, Blockchain có thể được ví như một _hệ thống kế toán phân tán_,
 nhưng được lưu trữ và công nhận bởi toàn bộ những người tham gia vào mạng lưới
@@ -20,7 +20,7 @@ không, đó là ví dụ của cuộc tấn công 49 51, và những khái ni�
 mình sẽ không nhắc nhiều ở đây, mình sẽ chỉ nói tổng quan về Blockchain như vậy
 để các bạn có thể dễ hình dung tổng quan về nó.
 
-![Sổ kế toán Blockchain](../../../static/img/Chuong1/Bai5/img2.jpg)
+![Sổ kế toán Blockchain](./img/Bai5/img2.jpg)
 
 ## 2. Khối Blockchain được tạo thành từ
 
@@ -31,12 +31,12 @@ thông tin về các khối, chẳng hạn như ai đã tạo ra chúng và th�
 tạo ra. Nội dung các bạn có thể hiểu đơn giản là một chuỗi các giao dịch được
 sắp xếp theo thứ tự.
 
-![Sổ kế toán Blockchain](../../../static/img/Chuong1/Bai5/img3.png)
+![Sổ kế toán Blockchain](./img/Bai5/img3.png)
 
 Chuỗi Blockchain xuất phát từ việc các khối tham chiếu đến nhau, tức là khối sau
 có thể tham chiếu đến khối trước.
 
-![Mô phỏng Blockchain](../../../static/img/Chuong1/Bai5/img4.png)
+![Mô phỏng Blockchain](./img/Bai5/img4.png)
 
 Trong tiêu đề mỗi khối sẽ bao gồm: Hash digest của nội dung và hash digest của
 tiêu đề khối trước.
@@ -49,7 +49,7 @@ bạn cố tình thay đổi nội dung của khối, toàn bộ chuỗi khối 
 và với cơ chế đồng thuận của Blockchain, sau 10 phút toàn bộ chuỗi khối sẽ được
 phục hồi, qua đó ta thấy rằng cơ chế bảo mật của Blockchain là rất mạnh mẽ.
 
-![Mô phỏng hash digest](../../../static/img/Chuong1/Bai5/img5.webp)
+![Mô phỏng hash digest](./img/Bai5/img5.webp)
 
 Vì thế, giao dịch là yếu tố cơ bản nhất trên Blockchain. Chúng chính là cơ chế
 mà người dùng có thể thực hiện các hành động để thay đổi trạng thái của
@@ -76,7 +76,7 @@ bị từ chối do nhiều lý do, có thể không đủ tiền hoặc không 
 tiêu, … Và bây giờ, mình sẽ giới thiệu cho các bạn các khái niệm đầu vào, đầu
 ra.
 
-![Minh họa chi tiêu UTxO](../../../static/img/Chuong1/Bai5/img6.webp)
+![Minh họa chi tiêu UTxO](./img/Bai5/img6.webp)
 
 ### a. Đầu ra (Output)
 

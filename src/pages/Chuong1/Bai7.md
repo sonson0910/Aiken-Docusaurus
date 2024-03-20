@@ -8,7 +8,7 @@ CBOR là một định dạng dữ liệu nhị phân có cấu trúc, tương t
 JSON nhưng dành cho dữ liệu nhị phân. CBOR được sử dụng trên Cardano để lưu trữ
 dữ liệu của các giao dịch, hợp đồng thông minh, và một số đối tượng khác.
 
-![Minh họa mã CBOR](../../../static/img/Chuong1/Bai7/img1.png)
+![Minh họa mã CBOR](./img/Bai7/img1.png)
 
 ### b. CDDL
 
@@ -19,7 +19,7 @@ hơn, đặc biệt là khi các bạn đang không biết mình sai logic ở �
 đoán CBOR là rất quan trọng khi ngôn ngữ lập trình Aiken là một ngôn ngữ không
 thể in giá trị, do đó bạn sẽ không thể biết bạn sai ở đâu và rất khó để Debug.
 
-![Minh họa mã CDDL](../../../static/img/Chuong1/Bai7/img2.png)
+![Minh họa mã CDDL](./img/Bai7/img2.png)
 
 ### c. Một số lợi ích của việc sử dụng CBOR và CDDL
 
@@ -35,7 +35,7 @@ nhiều nền tảng Blockchain khác nhau. Điều này giúp việc phát tri�
 dApp trên hệ sinh thái Cardano tương thích với các hệ sinh thái Blockchain khác
 trở nên dễ dàng và sẽ còn phổ biến trong tương lai.
 
-![Lợi ích của việc sử dụng CBOR và CDDL](../../../static/img/Chuong1/Bai7/img3.png)
+![Lợi ích của việc sử dụng CBOR và CDDL](./img/Bai7/img3.png)
 
 ### 2. Khoảng thời gian hiệu lực
 
@@ -52,7 +52,7 @@ thành hai giai đoạn:
 - **Giai đoạn 2:** Thực thi mã Plutus trong giao dịch. Giai đoạn này được thực
   hiện bởi các nút ủy quyền, hay còn gọi là thợ đào để xác nhận giao dịch.
 
-![Khoảng thời gian có hiệu lực trong Cardano](../../../static/img/Chuong1/Bai7/img4.jpg)
+![Khoảng thời gian có hiệu lực trong Cardano](./img/Bai7/img4.jpg)
 
 Khoảng thời gian hiệu lực được xác định bởi 2 giá trị:
 
@@ -84,7 +84,7 @@ dành cho các đối tượng. Mặc dù vẫn tồn tại đặc tả CDDL cho
 lõi, nhưng vẫn có nhiều cách hiểu khác nhau về nó. Điều đó có thể dẫn đến những
 bất ngờ khi tính toán lại hàm băm của đối tượng.
 
-![Chiến lược tuần tự hóa](../../../static/img/Chuong1/Bai7/img5.webp)
+![Chiến lược tuần tự hóa](./img/Bai7/img5.webp)
 
 Để đảm bảo tính nhất quán, chiến lược được khuyến nghị là luôn lưu giữ các byte
 nguyên bản của đối tượng đã được tuần tự hóa và không cố gắng tuần tự hóa lại
@@ -97,7 +97,7 @@ Trong Cardano, nền tảng này chủ yếu sử dụng hàm băm **Blake2b** t
 chuỗi. Hầu hết các đối tượng được gọi là “id” thì đều là hàm băm của một số đối
 tượng được tuần tự hóa, chẳng hạn như id nhóm cổ phần, id giao dịch, …
 
-![Chiến lược tuần tự hóa](../../../static/img/Chuong1/Bai7/img6.jpg)
+![Chiến lược tuần tự hóa](./img/Bai7/img6.jpg)
 
 (Hàm băm Blake2b) Hàm băm trên Cardano thường có độ dài 32 byte, ngoại trừ các
 thông tin xác thực (vd: Khóa hoặc script) có độ dài 28 byte, điều đó có nghĩa là
@@ -123,7 +123,7 @@ người tham gia đóng góp vào sự đồng thuận thông qua phần thư�
 thường được trả sau mỗi chu kỳ cho những người ủy quyền đã ủy thác cổ phần cho
 một nhóm cổ phần trên mạng lưới để tạo ra các khối thay mặt họ.
 
-![Phần thưởng và rút tiền](../../../static/img/Chuong1/Bai7/img7.png)
+![Phần thưởng và rút tiền](./img/Bai7/img7.png)
 
 Các phần thưởng này không được trả trực tiếp cho những người ủy quyền, mà được
 lưu trữ trong một tài quản đặc biệt được liên kết với các thông tin xác thực cổ
@@ -139,7 +139,7 @@ Script hay Kịch bản giai đoạn 1. Nó vẫn tồn tại và cung cấp m�
 bản nhưng cực kỳ hữu ích cho hệ sinh thái Cardano, ví dụ như việc xác định ví đa
 chữ ký chẳng hạn.
 
-![Kịch bản gốc](../../../static/img/Chuong1/Bai7/img8.jpeg)
+![Kịch bản gốc](./img/Bai7/img8.jpeg)
 
 Qua bài học trên, các bạn có thể phần nào đó hiểu được sâu sắc hơn về các công
 nghệ mà hệ sinh thái Cardano đang sử dụng.
