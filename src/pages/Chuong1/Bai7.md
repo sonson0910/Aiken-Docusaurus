@@ -23,21 +23,21 @@ thể in giá trị, do đó bạn sẽ không thể biết bạn sai ở đâu 
 
 ### c. Một số lợi ích của việc sử dụng CBOR và CDDL
 
-**Tăng hiệu quả:** CBOR là một định dạng dữ liệu nhỏ gọn, giúp việc truyền tải và
-lưu trữ dữ liệu trên Cardano trở nên hiệu quả, giảm chi phí đi rất nhiều khi tập
-lệnh được làm nhẹ đi.
+**Tăng hiệu quả:** CBOR là một định dạng dữ liệu nhỏ gọn, giúp việc truyền tải
+và lưu trữ dữ liệu trên Cardano trở nên hiệu quả, giảm chi phí đi rất nhiều khi
+tập lệnh được làm nhẹ đi.
 
-**Tăng cường bảo mật:** CDDL giúp việc mô tả dữ liệu CBOR trở nên rõ ràng và chính
-xác hơn, từ đó giúp giảm thiểu các lỗi và lỗ hổng bảo mật.
+**Tăng cường bảo mật:** CDDL giúp việc mô tả dữ liệu CBOR trở nên rõ ràng và
+chính xác hơn, từ đó giúp giảm thiểu các lỗi và lỗ hổng bảo mật.
 
-**Tăng tính tương thích:** CBOR thuộc định dạng dữ liệu phổ biến, được sử dụng bởi
-nhiều nền tảng Blockchain khác nhau. Điều này giúp việc phát triển các ứng dụng
-dApp trên hệ sinh thái Cardano tương thích với các hệ sinh thái Blockchain khác
-trở nên dễ dàng và sẽ còn phổ biến trong tương lai.
+**Tăng tính tương thích:** CBOR thuộc định dạng dữ liệu phổ biến, được sử dụng
+bởi nhiều nền tảng Blockchain khác nhau. Điều này giúp việc phát triển các ứng
+dụng dApp trên hệ sinh thái Cardano tương thích với các hệ sinh thái Blockchain
+khác trở nên dễ dàng và sẽ còn phổ biến trong tương lai.
 
 ![Lợi ích của việc sử dụng CBOR và CDDL](./img/Bai7/img3.png)
 
-### 2. Khoảng thời gian hiệu lực
+## 2. Khoảng thời gian hiệu lực
 
 Hợp đồng thông minh trên Cardano có thời gian chạy hoàn toàn xác định, tức là
 kết quả thực thi sẽ luôn giống nhau cho cùng một đầu vào, vậy làm sao để xử lý
@@ -46,8 +46,8 @@ thời gian trong các hợp đồng này?
 Cardano sẽ giải quyết vấn đề trên bằng cách chia quá trình xác nhận giao dịch
 thành hai giai đoạn:
 
-- **Giai đoạn 1:** Kiểm tra cấu trúc giao dịch và xác định xem giao dịch có hợp lệ
-  hay không, chẳng hạn như có đủ tiền để chi tiêu cho một UTxO đó không chẳng
+- **Giai đoạn 1:** Kiểm tra cấu trúc giao dịch và xác định xem giao dịch có hợp
+  lệ hay không, chẳng hạn như có đủ tiền để chi tiêu cho một UTxO đó không chẳng
   hạn. Giai đoạn này sẽ được thực thi bởi các noded trên mạng lưới Cardano.
 - **Giai đoạn 2:** Thực thi mã Plutus trong giao dịch. Giai đoạn này được thực
   hiện bởi các nút ủy quyền, hay còn gọi là thợ đào để xác nhận giao dịch.
@@ -56,10 +56,10 @@ thành hai giai đoạn:
 
 Khoảng thời gian hiệu lực được xác định bởi 2 giá trị:
 
-- **Lower bound:** Chính là cận dưới của khoảng thời gian này. Lower bound xác định
-  thời điểm sớm nhất mà giao dịch có thể được thực thi.
-- **Upper bound:** Chính là cận trên của khoảng thời gian này. Upper bound xác định
-  thời điểm muộn nhất mà giao dịch có thể được thực thi.
+- **Lower bound:** Chính là cận dưới của khoảng thời gian này. Lower bound xác
+  định thời điểm sớm nhất mà giao dịch có thể được thực thi.
+- **Upper bound:** Chính là cận trên của khoảng thời gian này. Upper bound xác
+  định thời điểm muộn nhất mà giao dịch có thể được thực thi.
 
 #### Ví dụ
 
@@ -77,7 +77,7 @@ sau:
 - Xác định thời gian bắt đầu hoặc thời gian kết thúc của hợp đồng.
 - Tạo ra các sự kiện chỉ xẩy ra trong một khoảng thời gian nhất định.
 
-# 3. Chiến lược tuần tự hóa
+## 3. Chiến lược tuần tự hóa
 
 Theo như các bạn đã biết, Cardano không có một phương pháp tuần tự hóa chuẩn
 dành cho các đối tượng. Mặc dù vẫn tồn tại đặc tả CDDL cho các đối tượng cốt
@@ -91,7 +91,7 @@ nguyên bản của đối tượng đã được tuần tự hóa và không c�
 bất cứ thứ gì. Đồng thời, các trình phân tích cú pháp cũng phải linh hoạt để có
 thể phân tích cú pháp bất kỳ biểu diễn nào tuân thủ đặc tả CDDL.
 
-# 4. Hàm băm
+## 4. Hàm băm
 
 Trong Cardano, nền tảng này chủ yếu sử dụng hàm băm **Blake2b** trong toàn bộ
 chuỗi. Hầu hết các đối tượng được gọi là “id” thì đều là hàm băm của một số đối
@@ -105,7 +105,7 @@ các bạn sẽ luôn thường xuyên bắt gặp hàm băm **Blake2b224** tron
 minh. Nó cũng lý giải vì sao policyId chỉ dài 28 byte, vì nó là hàm băm của một
 script được gắn thẻ.
 
-# 5. PolicyId
+## 5. PolicyId
 
 PolicyId là hàm băm của một script được gắn thẻ. Điều quan trọng cần lưu ý là
 trước khi băm, script sẽ được thêm tiền tố bằng một byte nhằm mục đích phân biệt
@@ -116,7 +116,7 @@ tùy thuộc vào ngôn ngữ kịch bản nào.
 Các kịch bản gốc được thêm tiền tố 0x00, Script PlutusV1 được thêm tiền tố 0x01,
 tương tự như vậy cho plutus v2 và v3.
 
-# 6. Phần thưởng và rút tiền
+## 6. Phần thưởng và rút tiền
 
 Ouroboros là một thuật toán đồng thuận của Cardano, xác định cơ chế khuyến khích
 người tham gia đóng góp vào sự đồng thuận thông qua phần thưởng. Phần thưởng
@@ -131,7 +131,7 @@ phần, đó chính là tài khoản Stake. Người dùng có thể rút tiền
 bằng cách thực hiện một giao dịch rút tiền như chuyển tiền từ địa chỉ stake sang
 địa chỉ payment chẳng hạn.
 
-# 7. Kịch bản gốc: (Native Scripts)
+## 7. Kịch bản gốc: (Native Scripts)
 
 Trước khi có kịch bản Plutus hoàn chỉnh, hay còn gọi là hợp đồng thông minh mà
 các bạn thường biết đến, Cardano đã có một kịch bản tối giản gọi là Native
